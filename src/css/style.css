@@ -141,3 +141,27 @@ body {
     max-height: 115px;
     overflow-y: auto; /*Organiza o texto que "vaza" do quadradinho branco em um scroll de texto*/
 }
+
+.cartao .descricao .texto::-webkit-scrollbar {
+    width: 10px;
+}
+
+.cartao .descricao .texto::-webkit-scrollbar-track { /*FUNDO DO SCROLL*/
+    background: #f1ecff;
+    border-radius: 10px;
+}
+
+.cartao .descricao .texto::-webkit-scrollbar-thumb { /*FRENTE DO SCROLL*/
+    background: rgba(51, 51, 51, 0.658);
+    border-radius: 10px;
+}
+
+.cartao .descricao .texto::-webkit-scrollbar-thumb:hover { /*FRENTE EM HOVER*/
+    background: rgba(51, 51, 51, 0.329);
+    border-radius: 10px;
+}
+
+.cartao .descricao .texto::-webkit-scrollbar-thumb:active { /*FRENTE CLICANDO COM O MOUSE*/
+    background: rgba(51, 51, 51, 0.329);
+    border-radius: 10px;
+}
